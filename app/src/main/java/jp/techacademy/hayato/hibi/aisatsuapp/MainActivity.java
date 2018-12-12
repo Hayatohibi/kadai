@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         } else if(hourOfday >= 10 && hourOfday < 18) {
                             TextView textView = (TextView) findViewById(R.id.aisatsu2);
                             textView.setText("こんにちは");
-                        }else if(hourOfday >= 18 || hourOfday > 0) {
+                        }else if(hourOfday >= 18 || hourOfday >= 0) {
                             TextView textView = (TextView) findViewById(R.id.aisatsu3);
                             textView.setText("こんばんは");
                         }
